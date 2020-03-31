@@ -1,0 +1,40 @@
+{
+    "items": [
+        {
+            "icao": "UKKK",
+            "iata": "IEV",
+            "name": "Kiev, Kiev Zhuliany",
+            "shortName": "Zhuliany",
+            "municipalityName": "Kiev",
+            "location": {
+                "lat": 50.4017,
+                "lon": 30.4497
+            },
+            "countryCode": "UA"
+        },
+        {
+            "icao": "UKKM",
+            "iata": "GML",
+            "name": "Kiev, Gostomel",
+            "shortName": "Gostomel",
+            "municipalityName": "Kiev",
+            "location": {
+                "lat": 50.6035,
+                "lon": 30.1919
+            },
+            "countryCode": "UA"
+        },
+        {
+            "icao": "UKBB",
+            "iata": "KBP",
+            "name": "Kiev, Boryspil",
+            "shortName": "Boryspil",
+            "municipalityName": "Kiev",
+            "location": {
+                "lat": 50.345,
+                "lon": 30.8947
+            },
+            "countryCode": "UA"
+        }
+    ]
+}
