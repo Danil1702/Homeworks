@@ -1,6 +1,7 @@
 # Homeworks
-##Interactive map of internatinal airlines
-*''Description''
+## Interactive map of internatinal airlines
+
+*Description*
 
 Provides a web app for generating an interactive map of internatinal airlines
 from the chosen airport. The map helps to distinguish the most popular destinations
