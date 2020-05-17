@@ -1,9 +1,9 @@
 import json
 from geopy.geocoders import Nominatim
 
-from Airlines.API import API_location, API_destination
-from Airlines.arrays import DynamicArray
-from Airlines.airport import Airport 
+from API import API_location, API_destination
+from arrays import DynamicArray
+from airport import Airport 
 
 
 class AirlinesADT:
@@ -72,3 +72,17 @@ class AirlinesADT:
                 pass
 
 
+if __name__ == "__main__":
+    airlines = AirlinesADT("London")
+    airlines.get_nearby_airports()
+
+    for airport in airlines._airports_nearby:
+        print(airport.get_description())
+
+    print("-----------------------------------------------------------------")
+
+    airlines._icao = "UKBB" 
+    airlines.get_routes_available()
+
+    for airport in airlines._routes_available:
+        print(airport.get_description()) 
