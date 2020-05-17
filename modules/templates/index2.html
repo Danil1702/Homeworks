@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Interactive airlines map</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style>
+			body{
+				background-image: url(static/bg.jpg);
+				color: rgba(255, 255, 255, 0.65);
+				font-family: "Source Sans Pro", Helvetica, sans-serif; 
+				font-size: 13pt;
+				font-weight: 200; 
+				line-height: 1.65;
+				}
+			#header{
+				text-align: center;
+				}
+			.avatar{
+				border-radius: 100%; 
+				display: inline-block; 
+				margin: 0 0 2em 0;
+				padding: 0.5em; 
+				border: solid 1px rgba(255, 255, 255, 0.25);
+				background-color: rgba(255, 255, 255, 0.075); 
+				width: 10em;
+				}
+			#header h1{
+				color: rgba(255, 255, 255, 0.65);
+				}
+			#dropdown{
+				width: 23.5em; 
+				color: rgba(255, 255, 255, 0.65);
+				font-family: 'Source Sans Pro', Helvetica, sans-serif;
+				color: rgb(30, 7, 41);
+				font-size: 20pt;
+				font-weight: 400;
+				line-height: 2.5;
+				margin-left: 38%;
+				opacity: 0.5;
+				filter: none
+				}	
+			#footer{
+				text-align: center;
+				padding: 2em 0 2em 0;
+				content: '';
+				border-top: solid 1px rgba(255, 255, 255, 0.25);
+				width: 10em;
+				display: block;
+				margin: 0 auto 3em auto;
+				}	
+			#footer p{
+				color: rgba(255, 255, 255, 0.25);
+				}	
+		</style>
+	</head>
+	<body>
+		<!-- Header -->
+			<header id="header" style="text-align: center;">
+				<span><img src="static/plane_icon.jpg"  class="avatar" alt=""/></span>
+				<h1><strong>Interactive airlines map</strong></h1>	
+			</header>
+			<!-- Dropdown -->
+			<div id="dropdown">	
+				<form action="map" method="post" target="_blank">
+					<p>
+						<select name = 'user'>
+							<option>Choose the airport for research:</option>
+							{% for i in airports %}
+							<option> {{i}} </option>
+							{% endfor %}
+						</select>
+						<button>Search</button>
+					</p>
+				</form>     
+			</div>
+			<!-- Footer -->
+			<p></p>
+			<footer id="footer">
+				<p>&copy;by Danil Kalchenko</p>
+			</footer>
+	</body>
+</html>
