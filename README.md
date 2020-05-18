@@ -25,12 +25,12 @@ in this destionation)
 
 Directory containing text documents (reports on completing parts of homework).
 
-1. _Diagrams: _
+1. __Diagrams:__
 
 Directory with UMl diagrams of all abstract data types (ADT) and
 data structures used in the project.
 
-2. _Video: _
+2. __Video: __
 
 Directory containing video representation of the 
 usage of the project.
