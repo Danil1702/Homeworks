@@ -25,12 +25,12 @@ in this destionation)
 
 Directory containing text documents (reports on completing parts of homework).
 
-1. **Diagrams: **
+1. _Diagrams: _
 
 Directory with UMl diagrams of all abstract data types (ADT) and
 data structures used in the project.
 
-2. **Video: **
+2. _Video: _
 
 Directory containing video representation of the 
 usage of the project.
@@ -39,66 +39,66 @@ usage of the project.
 
 Directory containing example programs, as parts of certain tasks.
 
-1. **API_examples: **
+1. _API_examples: _
 
 Contains python modules - examples of using APIs, which were provided in the project.
 
-2. **Class_examples: **
+2. _Class_examples: _
 
 Contains python modules - examples of using classes (Abstract Data Types), which
 were implemented in the project.
 
-3. **Modules_examples: **
+3. _Modules_examples: _
 Contains python modules - examples of using JSON and CSV libraries for reading and 
-writing ''.json'' and ''.csv'' files.
+writing _.json_ and _.csv_ files.
 
 * **modules**
 
 Directory containing programming modules - direct components of final program.
 
-1. **Airlines: **
+1. _Airlines: _
 Directory containing implementation of Airlines ADT
 
-''airlines_ADT.py: '' - class implementing Airlines ADt
+_airlines_ADT.py:_ - class implementing Airlines ADt
 
-''API.py: '' - contains functions for finding the airports in the area of certain city
+_API.py:_ - contains functions for finding the airports in the area of certain city
 (API_location) and available routes to fly (API_destination)
 
-''airport.py: '' - class Airport (helper class for Airlines ADT)
+_airport.py:_ - class Airport (helper class for Airlines ADT)
 
-''arrays.py: '' - class Array and class DynamicArray (data structures used in Airlines ADT)
+_arrays.py:_ - class Array and class DynamicArray (data structures used in Airlines ADT)
 
 [Full description](https://github.com/Danil1702/Homeworks/wiki/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%94-%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F-%E2%84%963)
 
-2. **Statistics**
+2. _Statistics_
 Directory containing implementation of Statistics ADT
 
-''statistics_adt.py: '' - class implementing Statistics ADT
+_statistics_adt.py:_ - class implementing Statistics ADT
 
-''arrays.py: '' - class Array and class Array2D (data structures used in Statistics ADT)
+_arrays.py:_ - class Array and class Array2D (data structures used in Statistics ADT)
 
-''Files: '' - files containing data for research
+_Files:_ - files containing data for research
 
 [Full description](https://github.com/Danil1702/Homeworks/wiki/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%94-%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F-%E2%84%963)
 
 
-3. **static: **
+3. _static: _
 Directory containing components for generating HTML pages used in web app.
 
-4. **templates: **
+4. _templates: _
 Directory containing HTML pages used in web app.
 
-''index1.html: '' - introductory page with a forn for choosing a city.
+_index1.html:_ - introductory page with a forn for choosing a city.
 
-''index2.html: '' - page for choosing the airport from the options provided.
+_index2.html:_ - page for choosing the airport from the options provided.
 
-''index3.html: '' - page rendered in case of any unexpected error.
+_index3.html:_ - page rendered in case of any unexpected error.
 
-''map.html: '' - html representation of folium map (generated after every request of the user)
+_map.html:_ - html representation of folium map (generated after every request of the user)
 
-5. **app.py: ** - module for launching the web app and   components of the project
+5. _app.py:_ - module for launching the web app and   components of the project
 
-6. **map_generation.py: ** - building folium map and saving it in file 'map.html'
+6. _map_generation.py:_ - building folium map and saving it in file 'map.html'
 
 * **tests**
 
