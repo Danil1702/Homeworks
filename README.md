@@ -30,7 +30,7 @@ Directory containing text documents (reports on completing parts of homework).
 Directory with UMl diagrams of all abstract data types (ADT) and
 data structures used in the project.
 
-2. __Video: __
+2. __Video:__
 
 Directory containing video representation of the 
 usage of the project.
@@ -39,16 +39,17 @@ usage of the project.
 
 Directory containing example programs, as parts of certain tasks.
 
-1. _API_examples: _
+1. __API_examples:__
 
 Contains python modules - examples of using APIs, which were provided in the project.
 
-2. _Class_examples: _
+2. __Class_examples:__
 
 Contains python modules - examples of using classes (Abstract Data Types), which
 were implemented in the project.
 
-3. _Modules_examples: _
+3. __Modules_examples:__
+
 Contains python modules - examples of using JSON and CSV libraries for reading and 
 writing _.json_ and _.csv_ files.
 
@@ -56,7 +57,8 @@ writing _.json_ and _.csv_ files.
 
 Directory containing programming modules - direct components of final program.
 
-1. _Airlines: _
+1. __Airlines:__
+
 Directory containing implementation of Airlines ADT
 
 _airlines_ADT.py:_ - class implementing Airlines ADt
@@ -70,7 +72,8 @@ _arrays.py:_ - class Array and class DynamicArray (data structures used in Airli
 
 [Full description](https://github.com/Danil1702/Homeworks/wiki/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%94-%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F-%E2%84%963)
 
-2. _Statistics_
+2. __Statistics__
+
 Directory containing implementation of Statistics ADT
 
 _statistics_adt.py:_ - class implementing Statistics ADT
@@ -82,10 +85,12 @@ _Files:_ - files containing data for research
 [Full description](https://github.com/Danil1702/Homeworks/wiki/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D1%94-%D0%B7%D0%B0%D0%B2%D0%B4%D0%B0%D0%BD%D0%BD%D1%8F-%E2%84%963)
 
 
-3. _static: _
+3. __static:__
+
 Directory containing components for generating HTML pages used in web app.
 
-4. _templates: _
+4. __templates:__
+
 Directory containing HTML pages used in web app.
 
 _index1.html:_ - introductory page with a forn for choosing a city.
