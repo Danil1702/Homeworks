@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module API</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>API</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:c%3A%5Cusers%5Cdanil%5Cdesktop%5Cprogramming%5Ckursach%5Cmodules%5Cairlines%5Capi.py">c:\users\danil\desktop\programming\kursach\modules\airlines\api.py</a></font></td></tr></table>
+    <p><tt>Module&nbsp;implementing&nbsp;API-using&nbsp;functions</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="json.html">json</a><br>
+</td><td width="25%" valign=top><a href="requests.html">requests</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#eeaa77">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Functions</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#eeaa77"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl><dt><a name="-API_destination"><strong>API_destination</strong></a>(icao)</dt><dd><tt>API&nbsp;for&nbsp;recieving&nbsp;the&nbsp;information&nbsp;about&nbsp;<br>
+the&nbsp;available&nbsp;routes&nbsp;from&nbsp;certain&nbsp;airport<br>
+(defined&nbsp;by&nbsp;the&nbsp;given&nbsp;ICAO&nbsp;identifier)<br>
+and&nbsp;the&nbsp;average&nbsp;number&nbsp;of&nbsp;daily&nbsp;flights<br>
+in&nbsp;each&nbsp;direction<br>
+&nbsp;<br>
+API_destination:&nbsp;str&nbsp;-&gt;&nbsp;dict<br>
+:param&nbsp;icao:&nbsp;airport&nbsp;identifier&nbsp;in&nbsp;ICAO<br>
+:return:&nbsp;dictionary&nbsp;of&nbsp;available&nbsp;routes</tt></dd></dl>
+ <dl><dt><a name="-API_location"><strong>API_location</strong></a>(lat, lon, radius, number)</dt><dd><tt>API&nbsp;for&nbsp;searching&nbsp;for&nbsp;airports&nbsp;which&nbsp;are<br>
+around&nbsp;certain&nbsp;location(defined&nbsp;by&nbsp;coordinates)&nbsp;<br>
+&nbsp;<br>
+API_location:&nbsp;float,&nbsp;float,&nbsp;int,&nbsp;int&nbsp;-&gt;&nbsp;dict<br>
+:param&nbsp;lat:&nbsp;latitude&nbsp;of&nbsp;certain&nbsp;location<br>
+:param&nbsp;lon:&nbsp;longitude&nbsp;of&nbsp;certain&nbsp;location<br>
+:param&nbsp;radius:&nbsp;maximum&nbsp;radius&nbsp;of&nbsp;search<br>
+:param&nbsp;number:&nbsp;take&nbsp;no&nbsp;more&nbsp;than&nbsp;number&nbsp;airports<br>
+:return:&nbsp;dictionary&nbsp;of&nbsp;airports&nbsp;found&nbsp;in&nbsp;th&nbsp;area&nbsp;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;around&nbsp;location</tt></dd></dl>
+</td></tr></table>
+</body></html>
