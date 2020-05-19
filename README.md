@@ -35,6 +35,11 @@ data structures used in the project.
 Directory containing video representation of the 
 usage of the project.
 
+3. __Documentation:__
+
+Directory containing automatically generated html files 
+with documentation to all project modules.
+
 * **examples**
 
 Directory containing example programs, as parts of certain tasks.
