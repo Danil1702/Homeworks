@@ -109,8 +109,13 @@ _map.html:_ - html representation of folium map (generated after every request o
 
 Directory containing test modules for final program.
 
-_API_test.py_ - testing module for _API.py_
-_airlines_test.py_ - testing module for _airlines_ADT.py_
-_airport_test.py_ - testing module for _airport.py_
-_arrays_test.py_ - testing module for _arrays.py_ in __Statistics__ and __Airlines__
-_statistics_test.py_ - testing module for _statistics_adt.py_
+_API_test.py_ - testing module for _API.py_.
+
+_airlines_test.py_ - testing module for _airlines_ADT.py_.
+
+_airport_test.py_ - testing module for _airport.py_.
+
+_arrays_test.py_ - testing module for _arrays.py_ in __Statistics__ and __Airlines__.
+
+_statistics_test.py_ - testing module for _statistics_adt.py_.
+
