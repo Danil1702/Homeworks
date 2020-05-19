@@ -19,6 +19,13 @@ generates the *folium* world map presenting:
 in this destionation)
 
 ---
+
+***Link***
+
+Web app is available by [link](http://kalchenko.pythonanywhere.com/)
+
+---
+
 ***Contents***
 
 * **docs**
