@@ -22,7 +22,10 @@ in this destionation)
 
 ***Link***
 
-Web app is available by [link](http://kalchenko.pythonanywhere.com/)
+Web app is available by [link](http://kalchenko.pythonanywhere.com/).
+
+
+Video presentation as available by the [link](https://drive.google.com/file/d/1Keu6LMBCMOzjcExSbGzwQe-oPAJIlHPu/view?usp=sharing).
 
 ---
 
@@ -37,12 +40,8 @@ Directory containing text documents (reports on completing parts of homework).
 Directory with UMl diagrams of all abstract data types (ADT) and
 data structures used in the project.
 
-2. __Video:__
 
-Directory containing video representation of the 
-usage of the project.
-
-3. __Documentation:__
+2. __Documentation:__
 
 Directory containing automatically generated html files 
 with documentation to all project modules.
